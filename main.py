@@ -15,6 +15,18 @@ Running the example:
   In your terminal enter the following and press enter
   python main.py 
 
+Expected Output:
+  Depending upon what values you set for your variables, your output should look
+  similar to the following but does not have to be exact.
+
+  Terminal $ python main.py
+  ========================================================================
+  Member Name: John Smith
+  Books Checked Out: 3
+  Account Active: True
+  You can check out more books.
+  ========================================================================
+
 """
 
 
@@ -32,7 +44,7 @@ def main():
     #   data type that you should use.
     # ------------------------------------------------------------
 
-    # store the member's name (string)  
+    # store the member's name (string)
 
     # store the number of books currently check out (number)
 
@@ -54,11 +66,11 @@ def main():
     # ------------------------------------------------------------
 
     # print the member's name
-
+    
     # print the number of books currently checked out
-
+    
     # print whether the library account is active
-
+    
 
     # ------------------------------------------------------------
     # STEP 3: 
@@ -77,7 +89,7 @@ def main():
 
     # conditional statement goes here to check library rules
     # You must use an if, elif, and else conditional statement
-
+    
 
 
     # ------------------------------------------------------------
