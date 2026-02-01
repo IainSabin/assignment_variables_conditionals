@@ -1,6 +1,20 @@
 """
 Main module for Python assignment.
 This assignment demonstrates use of Variables and Conditional Statements.
+
+Instructions:
+  Below there are 3 steps outlines to be completed. Complete each
+  step. You can run the example as often as you want to see the output.
+
+  Be certain to COMMIT and SYNC your work often so that you do not
+  lose any work you have done.
+
+  If you run into any issues or have questions reach out to your instructor.
+
+Running the example:
+  In your terminal enter the following and press enter
+  python main.py 
+
 """
 
 
