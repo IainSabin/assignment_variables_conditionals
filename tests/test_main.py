@@ -53,17 +53,21 @@ def test_main_prints_checkout_message(capsys):
     main()
     captured = capsys.readouterr()
     output_lower = captured.out.lower()
-    # Check for keywords related to checkout rules
+    # Check for keywords that indicate a decision was made based on the rules
+    # Students may use different wording, so check for various phrases
     assert any(
         keyword in output_lower
         for keyword in [
+            "check out",
             "checkout",
             "can",
             "cannot",
+            "maximum",
             "eligible",
-            "rule",
-            "check",
-            "books",
+            "ineligible",
+            "not active",
+            "active",
+            "reached",
         ]
     )
 
