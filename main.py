@@ -45,11 +45,13 @@ def main():
     # ------------------------------------------------------------
 
     # store the member's name (string)
+    name="Kai"
 
     # store the number of books currently check out (number)
+    number_of_books=4
 
     # store whether the library account is active (boolean)
-
+    account_active=True
 
     # ------------------------------------------------------------
     # STEP 2: 
