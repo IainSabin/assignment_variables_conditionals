@@ -66,13 +66,15 @@ def main():
     #   print("Name:", name)
     #
     # ------------------------------------------------------------
-
+ 
     # print the member's name
-    
+    print("Member Name:", name)
+
     # print the number of books currently checked out
-    
+    print("Books Checked Out:", number_of_books)
+
     # print whether the library account is active
-    
+    print("Account Active:", account_active)
 
     # ------------------------------------------------------------
     # STEP 3: 
